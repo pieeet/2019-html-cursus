@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+nav li {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 5px;
+}
+* {
+    border: 1px dotted grey;
+}
+img.full-width {
+    width: 100%;
+}
+.column {
+    width: 50%;
+    box-sizing: border-box;
+    /*min-width: 200px;*/
+    padding: 8px;
+    float: left;
+    overflow: hidden;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+table, td {
+    border: 1px solid black;
+}

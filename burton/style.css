@@ -1,0 +1,25 @@
+body {
+    background-color: #FCEBEB;
+    padding: 12px;
+}
+nav a {
+    margin: 8px;
+}
+.column {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+}
+.column-left img {
+    width: 478px;
+}
+.column-right img {
+    text-align: right;
+    width: 450px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+img.logo {
+    width: 300px;
+}
