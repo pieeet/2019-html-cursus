@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #F9F9F9;
+}
+nav ul {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 12px;
+    border-right: 1px solid whitesmoke;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
