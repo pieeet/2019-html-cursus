@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+section#content {
+    max-width: 1355px;
+    margin: auto;
+}
+
+section#content, footer {
+    padding: 12px;
+}
+
+div#logo {
+    background-color: #C1EEE3;
+}
+img {
+    width: 100%;
+}
+div#logo img {
+    margin: auto;
+    max-height: 200px;
+}
+nav ul {
+    width: 100%;
+    background-color: #827E83;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    padding: 5px;
+}
+@media all and (max-width: 659px) {
+    nav li {
+        padding-left: 20px;
+        border-top: 1px solid white;
+    }
+}
+
+
+@media all and (min-width: 660px) {
+    nav li {
+        display: inline-block;
+        border-right: 1px solid white;
+    }
+    section#nieuws, section#instrumenten {
+        width: 50%;
+        float: left;
+        padding-right: 20px;
+    }
+}
+
+@media all and (min-width: 1270px) {
+    section#nieuws {
+        width: 33%;
+    }
+    section#instrumenten {
+        width: 66%;
+    }
+    article.instrument {
+        width: 50%;
+        float: left;
+        padding-right: 20px;
+    }
+
+}
+section#content h3 {
+    color: #D37A6A;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+footer {
+    clear: left;
+    background-color: #8C8B8C;
+    color: white;
+    margin: 0;
+}
+footer h3 {
+    color: white;
+}
